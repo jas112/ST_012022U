@@ -785,7 +785,8 @@ body::-webkit-scrollbar {
 
 .endpoint-bottom{
     /* background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(38, 69, 122, 0.309), rgba(240, 21, 21, 0.15)); */
-    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(255, 69, 0, 0.2), rgba(255, 69, 0, 0.4), rgba(255, 69, 0, 0.6));
+    /* background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(255, 69, 0, 0.2), rgba(255, 69, 0, 0.4), rgba(255, 69, 0, 0.6)); */
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(255, 69, 0, 0.0), rgba(255, 69, 0, 0.3), rgba(255, 69, 0, 0.6));
     height: 1120px;
     margin: 200px 0px 0px 0px;
     /* border: 1px solid yellow; */
@@ -923,6 +924,10 @@ body::-webkit-scrollbar {
     font-family: Arial, Helvetica, sans-serif;
     opacity:0;
     transition: opacity .2s;
+}
+
+.nfo-scroll{
+    overflow: visible;
 }
 
 .section-nfo-active{
@@ -4975,6 +4980,16 @@ align-items: center;
         display: none;
     }
 
+}
+
+@media screen and (max-width: 400px){
+    .nfo-scroll{
+        overflow: scroll;
+    }
+
+    .section-title-xtraMod{
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 300px) {
