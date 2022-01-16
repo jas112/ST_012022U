@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="icon" href="images/ST_icon-F2-c01e.png">
+    <title>ALTAIR 5</title>
+  </head>
+  <body>
+
+    <div class="content-container notice-container">
+        <div class="notice-content">
+            <div class="notice-txt-title notice-main-title">ARRIVING SOON | ALTAIR-5</div>
+        </div>
+    </div>
+
+    <div class="top-overlay notice-top-overlay-a"></div>
+
+    <div class="parallax-frame-holder-background">
+
+        <div class="parallaxFrame ">
+        
+            <div id='stars'></div>
+            <div id='stars2'></div>
+            <div id='stars3'></div>
+
+        </div>
+
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/ST_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@700;800&family=Smooch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/animatescroll.js"></script>
+    <script src="js/parallax_functions10182017.js"></script>
+    <script src="js/parallax.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $('body').animatescroll();
+
+            $('.fancybox').fancybox({
+                'titlePosition'   : 'outside',
+                'overlayColor'    : '#000',
+                'overlayOpacity'  : 0.9
+            });
+            $('[data-fancybox]').fancybox({
+                image : {
+                protect: true
+                },
+                iframe : {
+                    autoScale: true,
+                    autoDimensions: true,
+                    preload : false,
+                    fitToView : true
+                }
+            });
+
+        }); 
+
+    </script>
+
+  </body>
+</html>
