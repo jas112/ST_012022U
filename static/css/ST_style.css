@@ -360,16 +360,10 @@
 /* Root Page Element Definitions */
 /* ////////////////////////////////////////////// */
 
-html{
-    width: 100vw;
-}
-
 body{
     background-color: #000000;
     padding:0px;
     margin:0px;
-    display: flex;
-    justify-content: center;
     /* overflow: hidden; */
     background-size: 400px auto;
     background-repeat: repeat;
@@ -4875,10 +4869,6 @@ align-items: center;
 }
 
 @media screen and (max-width: 600px) {
-
-    .display-overlay{
-        width: 95% !important;
-    }
 
     #star{
         top:570.08px;
