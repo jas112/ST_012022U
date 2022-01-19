@@ -4876,6 +4876,10 @@ align-items: center;
 
 @media screen and (max-width: 600px) {
 
+    .display-overlay{
+        width: 95% !important;
+    }
+
     #star{
         top:570.08px;
     }
