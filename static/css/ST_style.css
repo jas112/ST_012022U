@@ -3593,6 +3593,11 @@ align-items: center;
     transition: display .2s;
 }
 
+.position-dtxt{
+    font-size: 11px;
+    font-weight: bold;
+}
+
 .position-hover-value{
     color:#ffffff  !important;
 }
