@@ -360,6 +360,10 @@
 /* Root Page Element Definitions */
 /* ////////////////////////////////////////////// */
 
+html{
+    width: 100vw;
+}
+
 body{
     background-color: #000000;
     padding:0px;
@@ -368,6 +372,7 @@ body{
     background-size: 400px auto;
     background-repeat: repeat;
     cursor: default;
+    overflow-x:hidden;
     /* min-width: 520px; */
 
 }
