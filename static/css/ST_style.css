@@ -310,6 +310,12 @@
     100%   { transform: translate(0, 0px); }   
 }
 
+@keyframes floatingFTR {
+    0% { transform: translate(0,  -0px); }
+    50%  { transform: translate(0, -15px); }
+    100%   { transform: translate(0, 0px); }   
+}
+
 /* @keyframes textGlow {
     from {
         -webkit-text-fill-color: #ff450000;
@@ -1880,6 +1886,13 @@ body::-webkit-scrollbar {
     animation-duration: 6s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+
+.floating-ftr{
+    animation-name: floatingFTR;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;   
 }
 
 .activeColorPulse{
